@@ -18,6 +18,9 @@ namespace HandleData.Services
             _externalApiProxy = externalApiProxy;
         }
 
+        //public async Task GetDataFromFile
+        // Todo rearrange the code, make interfaces
+
         public async Task<Data?[][]> UpdateFileWithNewData()
         {
             var linesFromFile = new List<string>(); // TODO replace with real data from file.
