@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HandleData.Interfaces;
 
 namespace HandleData.Services
 {
-    internal class DataService
+    public class DataService : IDataService
     {
+        public Task UpdateFileWithNewData()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
